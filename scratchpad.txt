@@ -1,0 +1,10 @@
+
+
+Directory Structure:
+
+<Incoming>: Directory to monitor for incoming photos & videos
+<Library>: Root library folder
+<Library/yyyy/MM>: Directory structure based on EXIF "picture taken"
+<Duplicates>: Contains photos & videos that are considered duplicate (based on hash)
+<Error>: Items that could not be recognized as photos or videos, or do not have EXIF data (or picture taken date)
+
